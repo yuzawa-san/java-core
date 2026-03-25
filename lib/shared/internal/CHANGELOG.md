@@ -2,6 +2,23 @@
 
 All notable changes to the project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org).
 
+## [1.10.0](https://github.com/yuzawa-san/java-core/compare/launchdarkly-java-sdk-internal-1.9.0...launchdarkly-java-sdk-internal-1.10.0) (2026-03-25)
+
+
+### Features
+
+* Add optional support for per-context summary events. ([#135](https://github.com/yuzawa-san/java-core/issues/135)) ([3913d6f](https://github.com/yuzawa-san/java-core/commit/3913d6f905b53c5f81bc7d5d044f332343b07182))
+* adds fdv2 payload parsing and protocol handling ([a1412c4](https://github.com/yuzawa-san/java-core/commit/a1412c4f217c5c39a8667381ea51e1c758d7c548))
+* commonizes several FDv2 related types ([a14beb9](https://github.com/yuzawa-san/java-core/commit/a14beb987e3c9f049c6f81c9771bddce7ba7591d))
+* Enable gzip option for sending events ([#66](https://github.com/yuzawa-san/java-core/issues/66)) ([553883d](https://github.com/yuzawa-san/java-core/commit/553883df07e60cf65ad3025eff30a9c6ca637262))
+* Move iterable async queue to internal. ([#125](https://github.com/yuzawa-san/java-core/issues/125)) ([971f4b3](https://github.com/yuzawa-san/java-core/commit/971f4b357575405afe23cf3441f8835dea45a30e))
+
+
+### Bug Fixes
+
+* making Selector make public ([#102](https://github.com/yuzawa-san/java-core/issues/102)) ([9f4f2ee](https://github.com/yuzawa-san/java-core/commit/9f4f2ee89e7a8e8f168ceb7e8a7a4c8ced4f3901))
+* updating various dependencies to latest minor to incorporate fixes ([b4425d7](https://github.com/yuzawa-san/java-core/commit/b4425d74cc5db3c2cba1768b95b1fb903e591684))
+
 ## [1.9.0](https://github.com/launchdarkly/java-core/compare/launchdarkly-java-sdk-internal-1.8.0...launchdarkly-java-sdk-internal-1.9.0) (2026-02-26)
 
 
