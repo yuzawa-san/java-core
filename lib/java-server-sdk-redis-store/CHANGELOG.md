@@ -2,6 +2,18 @@
 
 All notable changes to the LaunchDarkly Java SDK Redis integration will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org).
 
+## [3.2.0](https://github.com/yuzawa-san/java-core/compare/launchdarkly-java-server-sdk-redis-store-3.1.0...launchdarkly-java-server-sdk-redis-store-3.2.0) (2026-03-25)
+
+
+### Features
+
+* **java-server-sdk-redis-store:** Add username/password authentication support for Redis 6.0+ ([#96](https://github.com/yuzawa-san/java-core/issues/96)) ([75625f3](https://github.com/yuzawa-san/java-core/commit/75625f3ec5fbe198db48ab6ea48a7628fa3b82df))
+
+
+### Bug Fixes
+
+* bumping underlying launchdarkly-java-server-sdk API version to r… ([#46](https://github.com/yuzawa-san/java-core/issues/46)) ([3eb9930](https://github.com/yuzawa-san/java-core/commit/3eb9930276aa100edfc773708d565f79e889465b))
+
 ## [3.1.0](https://github.com/launchdarkly/java-core/compare/launchdarkly-java-server-sdk-redis-store-v3.0.1...launchdarkly-java-server-sdk-redis-store-3.1.0) (2026-01-27)
 
 
