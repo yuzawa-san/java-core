@@ -2,6 +2,32 @@
 
 All notable changes to the LaunchDarkly Java SDK will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org).
 
+## [7.14.0](https://github.com/yuzawa-san/java-core/compare/launchdarkly-java-server-sdk-7.13.1...launchdarkly-java-server-sdk-7.14.0) (2026-03-25)
+
+
+### Features
+
+* Add experimental plugin support ([#76](https://github.com/yuzawa-san/java-core/issues/76)) ([13dc0e4](https://github.com/yuzawa-san/java-core/commit/13dc0e42318ac090c72b2fbc89454b50434a1ff6))
+* commonizes several FDv2 related types ([f1f42f8](https://github.com/yuzawa-san/java-core/commit/f1f42f82227f4900fb691cb2b7e6f56e4931789d))
+* Enable gzip option for events in server SDK ([#67](https://github.com/yuzawa-san/java-core/issues/67)) ([2420219](https://github.com/yuzawa-san/java-core/commit/2420219efa0258fc57031979ece8a1deb6a54ff5))
+* **experimental:** Release EAP support for FDv2 data system. ([6d7000b](https://github.com/yuzawa-san/java-core/commit/6d7000b38ec7faf0760184b546b1dd4896c42dc9))
+* Inline context for custom and migration events ([#63](https://github.com/yuzawa-san/java-core/issues/63)) ([fb76712](https://github.com/yuzawa-san/java-core/commit/fb767121ec048ecae85ac542c4cdca38db736e4d))
+* Support stream init diagnostics events for FDv2. ([#133](https://github.com/yuzawa-san/java-core/issues/133)) ([cb01449](https://github.com/yuzawa-san/java-core/commit/cb014492a210cde548bacd3e41ab505ea08e0b1a))
+
+
+### Bug Fixes
+
+* bumping Java Server internal version to incorporate various dependency bumps ([#87](https://github.com/yuzawa-san/java-core/issues/87)) ([ae0fa11](https://github.com/yuzawa-san/java-core/commit/ae0fa113e0c00e9198878d503fbe6d0bd6016bda))
+* Fix an issue that would prevent using FileData with `autoReload(true)` for a file in the current working directory. ([b50f684](https://github.com/yuzawa-san/java-core/commit/b50f6847696e7c0956276911556ac78613f9fb4e))
+* migrating publishing to use central portal ([#78](https://github.com/yuzawa-san/java-core/issues/78)) ([cf4e46e](https://github.com/yuzawa-san/java-core/commit/cf4e46e05bc5f95cc791af3244900d05e458fe64))
+* updating various dependencies to latest minor to incorporate fixes ([b4425d7](https://github.com/yuzawa-san/java-core/commit/b4425d74cc5db3c2cba1768b95b1fb903e591684))
+
+
+### Performance Improvements
+
+* optimize EvaluatorBucketing ([#88](https://github.com/yuzawa-san/java-core/issues/88)) ([e525ef0](https://github.com/yuzawa-san/java-core/commit/e525ef011d12ca8755c3150c64b22bb0d0202d26))
+* optimize EvaluatorWithHooks ([#73](https://github.com/yuzawa-san/java-core/issues/73)) ([6b42592](https://github.com/yuzawa-san/java-core/commit/6b42592c7efd84eae7bb13977a5a3f3fb2237c9c))
+
 ## [7.13.1](https://github.com/launchdarkly/java-core/compare/launchdarkly-java-server-sdk-7.13.0...launchdarkly-java-server-sdk-7.13.1) (2026-03-19)
 
 
