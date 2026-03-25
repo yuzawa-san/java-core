@@ -2,6 +2,26 @@
 
 All notable changes to the project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org).
 
+## [2.5.0](https://github.com/yuzawa-san/java-core/compare/launchdarkly-java-sdk-common-2.4.0...launchdarkly-java-sdk-common-2.5.0) (2026-03-25)
+
+
+### Features
+
+* Add IterableAsyncQueue. ([1965b25](https://github.com/yuzawa-san/java-core/commit/1965b257119c1d5ebc05102d960c2ce41bfee542))
+* commonizes several FDv2 related types ([ef1e204](https://github.com/yuzawa-san/java-core/commit/ef1e204b056ee6ad2a7c12e850dbb04a769a6104))
+* Move iterable async queue to internal. ([#125](https://github.com/yuzawa-san/java-core/issues/125)) ([971f4b3](https://github.com/yuzawa-san/java-core/commit/971f4b357575405afe23cf3441f8835dea45a30e))
+* Update minimum Java version to 1.8. ([1965b25](https://github.com/yuzawa-san/java-core/commit/1965b257119c1d5ebc05102d960c2ce41bfee542))
+
+
+### Bug Fixes
+
+* Change IterableAsyncQueue to public access modifier ([#122](https://github.com/yuzawa-san/java-core/issues/122)) ([88c4ae0](https://github.com/yuzawa-san/java-core/commit/88c4ae00c258c3030bc8e6bf761f26d9ec857941))
+
+
+### Performance Improvements
+
+* optimize copy on write attributes ([#74](https://github.com/yuzawa-san/java-core/issues/74)) ([7e0a623](https://github.com/yuzawa-san/java-core/commit/7e0a6239cc4ab674b18548dbcbbba9d3f99dd476))
+
 ## [2.4.0](https://github.com/launchdarkly/java-core/compare/launchdarkly-java-sdk-common-2.3.0...launchdarkly-java-sdk-common-2.4.0) (2026-02-26)
 
 
